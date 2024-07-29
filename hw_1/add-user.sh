@@ -67,3 +67,5 @@ while true; do
         echo -e "${errorColor}Unhandled error occurred with creating user $username"
     fi
 done
+
+# this is simple comment just to check conflict
