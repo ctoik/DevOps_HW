@@ -67,4 +67,3 @@ while true; do
         echo -e "${errorColor}Unhandled error occurred with creating user $username"
     fi
 done
-# just comment for merge conflict task of hw_2
