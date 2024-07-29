@@ -64,8 +64,6 @@ while true; do
         echo "$username:$password" | sudo chpasswd
         echo -e "${successColor}Password for user $username has been saved."
     else
-        echo -e "${errorColor}Unhandled error occurred with creating user $username"
+        echo "Unhandled error occurred during user creation"
     fi
 done
-
-# this is simple comment just to check conflict
